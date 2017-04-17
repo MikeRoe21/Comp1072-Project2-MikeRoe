@@ -4,19 +4,12 @@ body{
 	background-color: rgba(0,0,255,0.5);
 }
 #abouttext{
-	display: block;
-	float: right;
-	padding: 10px;
-	margin: 10px;
-	width: 70%;
-	font-size: 1.5em;
-	text-align: left;
+	text-align: center;
 	font-style: italic;
 }
 img.center {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 }
 p{
 	text-align: center;
@@ -83,7 +76,7 @@ footer{
 	}
 }
 
-@@media
+@media
 	(max-width: 560px){
 		img#BR{
 			 background-image: url("../css/tinified/photo_fixed@0,33x.jpg");
