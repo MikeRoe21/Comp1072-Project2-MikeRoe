@@ -67,3 +67,34 @@ h1{
 footer{
 	text-align: center;
 }
+@media
+(max-width: 768px){
+	img#BR{
+		background-image: url("../css/tinified/photo_fixed@0,5x.jpg");
+	}
+	img#HB{
+		 background-image: url("../css/tinified/_MG_4222_fixed@0,5x.jpg");
+	}
+	img#Lab3{
+		 background-image: url("../css/tinified/Narr1-Lab3-MRoe@0,5x.jpg");
+	}
+	img#Reflect{
+		 background-image: url("../css/tinified/Roe-Reflect8@0,5x.jpg");
+	}
+}
+
+@@media
+	(max-width: 560px){
+		img#BR{
+			 background-image: url("../css/tinified/photo_fixed@0,33x.jpg");
+		}
+		img#HB{
+			 background-image: url("../css/tinified/_MG_4222_fixed@0,33x.jpg");
+		}
+		img#Lab3{
+			background-image: url("../css/tinified/Narr1-Lab3-MRoe@0,33x.jpg");
+		}
+		img#Reflect{
+			background-image: url("../css/tinified/Roe-Reflect8@0,33x.jpg");
+		}
+	}
