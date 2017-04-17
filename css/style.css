@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/*CSS Validated at: https://jigsaw.w3.org/css-validator/validator */
+body{
+	background-color: rgba(0,0,255,0.5);
+}
+#abouttext{
+	display: block;
+	float: right;
+	padding: 10px;
+	margin: 10px;
+	width: 70%;
+	font-size: 1.5em;
+	text-align: left;
+	font-style: italic;
+}
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	text-align: center;
+}
+nav {
+		float:left;
+		width: 100%;
+		overflow: hidden;
+}
+nav ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		float: left;
+		position: relative;
+		left: 50%;
+
+}
+nav li {
+		float:left;
+		position: relative;
+		right: 50%;
+		margin-right: 0.25em;
+}
+nav li a {
+		/*margin-top:10px;*/
+		display: block;
+		padding: 1.5em;
+		background: #ccc;
+		text-decoration: none;
+		color: #000;
+		border: 3px solid black;
+}
+nav li a:hover {
+		background: #fff;
+}
+main, li {
+		background: #fff;
+}
+main {
+		padding: 1.5em;
+		clear: both;
+		line-height: 1.5;
+}
+h1{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
